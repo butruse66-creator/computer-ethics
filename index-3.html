@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Computer Ethics: Doing Right in a Digital World</title>
+<style>
+:root{--bg:#f7f8fb;--card:#fff;--ink:#16202e;--mute:#5b6678;--acc:#1f5fd6;--acc2:#e8efff;--line:#e2e6ee;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0f141c;--card:#171e2a;--ink:#e8edf5;--mute:#9aa6b8;--acc:#6ea0ff;--acc2:#1c2840;--line:#263044}}
+:root[data-theme="dark"]{--bg:#0f141c;--card:#171e2a;--ink:#e8edf5;--mute:#9aa6b8;--acc:#6ea0ff;--acc2:#1c2840;--line:#263044}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:70px}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+nav{position:sticky;top:env(safe-area-inset-top,0px);background:var(--card);border-bottom:1px solid var(--line);display:flex;gap:4px;padding:10px 16px;overflow-x:auto;z-index:5}
+nav b{margin-right:auto;white-space:nowrap;padding:6px 8px}
+nav a{color:var(--mute);text-decoration:none;padding:6px 10px;border-radius:8px;white-space:nowrap;font-size:14px}
+nav a:hover{background:var(--acc2);color:var(--acc)}
+header{padding:64px 20px 56px;text-align:center;background:linear-gradient(160deg,var(--acc2),var(--bg))}
+header h1{font-size:clamp(2rem,6vw,3.4rem);line-height:1.1;margin:0 auto 14px;max-width:760px}
+header p{color:var(--mute);max-width:620px;margin:0 auto 24px;font-size:1.1rem}
+.btn{display:inline-block;background:var(--acc);color:#fff;padding:12px 24px;border-radius:10px;text-decoration:none;font-weight:600}
+main{max-width:980px;margin:0 auto;padding:0 20px}
+section{padding:48px 0}
+h2{font-size:1.7rem;margin:0 0 8px}
+.sub{color:var(--mute);margin:0 0 24px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px}
+.card h3{margin:0 0 6px;font-size:1.1rem;color:var(--acc)}
+.card p{margin:0;color:var(--mute);font-size:.95rem}
+ol.cmd{list-style:none;counter-reset:c;padding:0;margin:0;display:grid;gap:10px}
+ol.cmd li{counter-increment:c;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px 14px 56px;position:relative}
+ol.cmd li:before{content:counter(c);position:absolute;left:14px;top:50%;transform:translateY(-50%);width:30px;height:30px;border-radius:50%;background:var(--acc);color:#fff;display:grid;place-items:center;font-weight:700;font-size:14px}
+.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+.do h3{color:#188a4a}.dont h3{color:#c63a3a}
+ul{margin:0;padding-left:20px;color:var(--mute)}li{margin:4px 0}
+details{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin-bottom:10px}
+summary{cursor:pointer;font-weight:600}
+details p{color:var(--mute);margin:10px 0 0}
+footer{text-align:center;color:var(--mute);padding:32px 20px 40px;border-top:1px solid var(--line);font-size:.9rem}
+</style>
+</head>
+<body>
+<nav><b>⚖️ Computer Ethics</b><a href="#topics">Topics</a><a href="#rules">Ten Rules</a><a href="#dodont">Do &amp; Don't</a><a href="#cases">Cases</a></nav>
+
+<header>
+<h1>Doing the Right Thing in a Digital World</h1>
+<p>Computer ethics is the set of moral principles that guide how we design, use and share technology responsibly.</p>
+<a class="btn" href="#topics">Start learning</a>
+</header>
+
+<main>
+<section id="topics">
+<h2>Core Topics</h2>
+<p class="sub">The main areas every computer professional and user should understand.</p>
+<div class="grid">
+<div class="card"><h3>🔒 Privacy</h3><p>Respecting how personal data is collected, stored, shared and protected.</p></div>
+<div class="card"><h3>©️ Intellectual Property</h3><p>Honouring copyright, licences and the original work of others, including software.</p></div>
+<div class="card"><h3>🛡️ Cybercrime &amp; Security</h3><p>Avoiding hacking, fraud, malware and unauthorised access to systems.</p></div>
+<div class="card"><h3>🤖 AI &amp; Fairness</h3><p>Building and using AI without bias, deception or harm to people.</p></div>
+<div class="card"><h3>🌍 Digital Responsibility</h3><p>Honesty online, tackling misinformation and bridging the digital divide.</p></div>
+<div class="card"><h3>💼 Professional Conduct</h3><p>Competence, integrity and accountability in the workplace, guided by codes like the ACM Code of Ethics.</p></div>
+</div>
+</section>
+
+<section id="rules">
+<h2>The Ten Commandments of Computer Ethics</h2>
+<p class="sub">A widely taught guide from the Computer Ethics Institute, summarised.</p>
+<ol class="cmd">
+<li>Do not use a computer to harm other people.</li>
+<li>Do not interfere with other people's computer work.</li>
+<li>Do not snoop around in other people's files.</li>
+<li>Do not use a computer to steal.</li>
+<li>Do not use a computer to spread false information.</li>
+<li>Do not use or copy software you have not paid for.</li>
+<li>Do not use others' resources without permission or credit.</li>
+<li>Do not claim other people's intellectual work as your own.</li>
+<li>Think about the social impact of the programs you write.</li>
+<li>Always show consideration and respect for others.</li>
+</ol>
+</section>
+
+<section id="dodont">
+<h2>Do &amp; Don't</h2>
+<p class="sub">Everyday habits that put ethics into practice.</p>
+<div class="two">
+<div class="card do"><h3>✅ Do</h3><ul><li>Use strong, unique passwords</li><li>Credit sources and creators</li><li>Ask permission before sharing data</li><li>Report security flaws responsibly</li><li>Verify information before posting</li></ul></div>
+<div class="card dont"><h3>❌ Don't</h3><ul><li>Pirate software, music or films</li><li>Access accounts that aren't yours</li><li>Plagiarise or copy assignments</li><li>Cyberbully or spread rumours</li><li>Share someone's private details</li></ul></div>
+</div>
+</section>
+
+<section id="cases">
+<h2>Think It Through</h2>
+<p class="sub">Tap a scenario to see the ethical view.</p>
+<details><summary>A friend asks to copy your coding assignment</summary><p>Sharing work for copying is academic dishonesty. Help them understand the concept instead of handing over your solution.</p></details>
+<details><summary>You find a bug that exposes users' data</summary><p>Report it to the owner promptly and responsibly. Do not exploit it or publish it before it is fixed.</p></details>
+<details><summary>An app collects more data than it needs</summary><p>Ethical design follows data minimisation: collect only what is necessary, be transparent, and get consent.</p></details>
+<details><summary>You see a viral post that looks fake</summary><p>Check reliable sources before sharing. Spreading misinformation can cause real harm.</p></details>
+</section>
+</main>
+
+<footer>Computer Ethics Awareness · Think before you click, code or share.</footer>
+</body>
+</html>
